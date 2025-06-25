@@ -19,10 +19,3 @@ Gameverse is a sleek and modern gaming website built to showcase games, updates,
 
 (Optional: Bootstrap, jQuery, or FontAwesome if used in your project)
 
-## Getting Started
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/Dhruv-Meena/Gameverse.git
-cd Gameverse
