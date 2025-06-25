@@ -1,14 +1,14 @@
 import React from "react";
-import { SignIn } from "@clerk/clerk-react";
+import { SignUp } from "@clerk/clerk-react";
 
-export default function Login() {
+export default function Signup() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-primary">
       <div className="w-full max-w-sm bg-[#1A1A1D] border border-[#FFD700] rounded-lg p-6">
         <h2 className="text-[#FFD700] text-2xl font-bold text-center mb-4">
-          Welcome Back!
+          Create Your Account
         </h2>
-        <SignIn
+        <SignUp
           appearance={{
             elements: {
               card: "bg-[#1A1A1D] border-none shadow-none",
@@ -19,7 +19,7 @@ export default function Login() {
               formFieldLabel: "text-[#FFD700] font-medium",
             },
           }}
-          signUpUrl="/signup"
+          signInUrl="/login"
         />
       </div>
     </div>
