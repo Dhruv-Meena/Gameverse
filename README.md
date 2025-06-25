@@ -16,6 +16,3 @@ Gameverse is a sleek and modern gaming website built to showcase games, updates,
 - HTML5
 - CSS3
 - JavaScript
-
-(Optional: Bootstrap, jQuery, or FontAwesome if used in your project)
-
